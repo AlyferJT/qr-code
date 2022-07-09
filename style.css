@@ -25,6 +25,7 @@ body {
     height: 45em;
     background-color: white;
     border-radius: 1.5em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
 }
 
 .qrbox__imagecontainer--img {
