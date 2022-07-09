@@ -12,6 +12,12 @@ html {
 body {
     position: relative;
     background-color: hsl(212, 45%, 89%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .qrbox {
@@ -22,7 +28,6 @@ body {
     height: 450px;
     background-color: white;
     border-radius: 15px;
-    margin: 50px auto;
 }
 
 .qrbox__imagecontainer--img {
@@ -53,6 +58,5 @@ body {
 }
 
 .attribution {
-    position: absolute;
     font-size: .8rem;
 }
